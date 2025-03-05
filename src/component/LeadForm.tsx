@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, FormEventHandler, useState } from "react";
+import { FormEvent, useState } from "react";
 
 export default function LeadForm() {
   const [formData, setFormData] = useState({
