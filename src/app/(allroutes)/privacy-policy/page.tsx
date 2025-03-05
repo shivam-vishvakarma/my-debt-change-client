@@ -15,7 +15,7 @@ export default function PrivacyPolicyPage() {
       </h1>
       <h2 className="text-3xl font-semibold text-purple-700">BACKGROUND:</h2>
       <p>
-        Blackberry Finance Solutions Limited understands that your privacy is
+      My Debt Change Limited understands that your privacy is
         important to you and that you care about how your personal data is used
         and shared online. We respect and value the privacy of everyone who
         visits this website, www.mydebtchange.co.uk (“Our Site”). Any personal

@@ -120,7 +120,7 @@ export default function Home() {
                     24/7 Customer Support
                   </h3>
                   <p className="text-sm">
-                    ur U.S.-based customer support team is available around the
+                    U.K.-based customer support team is available around the
                     clock to answer any questions, resolve any issues, and
                     provide helpful solutions. Whether it&apos;s through email,
                     phone, or live chat, we&apos;re always here to support you.

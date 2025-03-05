@@ -89,7 +89,7 @@ export default function LeadForm() {
         Debt Solution Finder
       </h2>
       <p className="text-3xl">Step {step} of 4</p>
-      <ol className="relative items-center w-full md:w-10/12 mx-auto justify-around space-y-4 sm:flex sm:space-x-8 sm:space-y-0 rtl:space-x-reverse">
+      <ol className="relative items-center w-full md:w-10/12 mx-auto justify-around flex sm:space-x-8 sm:space-y-0 rtl:space-x-reverse">
         <div className="w-full absolute z-0 bg-gray-200 rounded-full dark:bg-gray-700">
           <div
             className="bg-purple-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
