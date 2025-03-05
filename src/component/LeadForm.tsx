@@ -90,7 +90,7 @@ export default function LeadForm() {
       </h2>
       <p className="text-3xl">Step {step} of 4</p>
       <ol className="relative items-center w-full md:w-10/12 mx-auto justify-around flex sm:space-x-8 sm:space-y-0 rtl:space-x-reverse">
-        <div className="w-full absolute z-0 bg-gray-200 rounded-full dark:bg-gray-700">
+        <div className="w-full absolute z-0 bg-gray-200 rounded-full">
           <div
             className="bg-purple-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
             style={{ width: `${step * 25}%` }}
@@ -122,15 +122,15 @@ export default function LeadForm() {
         <li
           className={`flex items-center ${
             step >= 1
-              ? "text-purple-600 dark:text-purple-500"
-              : "text-gray-500 dark:text-gray-400"
+              ? "text-purple-600"
+              : "text-gray-500"
           } space-x-2.5 rtl:space-x-reverse z-10 bg-white rounded-full border-2 border-white`}
         >
           <span
             className={`flex items-center justify-center w-8 h-8 border-2  rounded-full shrink-0 ${
               step >= 1
-                ? "border-purple-600 dark:border-purple-500"
-                : " dark:border-gray-400 border-gray-500"
+                ? "border-purple-600"
+                : "border-gray-500"
             }`}
           >
             1
@@ -143,15 +143,15 @@ export default function LeadForm() {
         <li
           className={`flex items-center ${
             step >= 2
-              ? "text-purple-600 dark:text-purple-500"
-              : "text-gray-500 dark:text-gray-400"
+              ? "text-purple-600"
+              : "text-gray-500"
           } space-x-2.5 rtl:space-x-reverse z-10 bg-white rounded-full border-2 border-white`}
         >
           <span
             className={`flex items-center justify-center w-8 h-8 border-2  rounded-full shrink-0 ${
               step >= 2
-                ? "border-purple-600 dark:border-purple-500"
-                : " dark:border-gray-400 border-gray-500"
+                ? "border-purple-600"
+                : "border-gray-500"
             }`}
           >
             2
@@ -160,15 +160,15 @@ export default function LeadForm() {
         <li
           className={`flex items-center ${
             step >= 3
-              ? "text-purple-600 dark:text-purple-500"
-              : "text-gray-500 dark:text-gray-400"
+              ? "text-purple-600"
+              : "text-gray-500"
           } space-x-2.5 rtl:space-x-reverse z-10 bg-white rounded-full border-2 border-white`}
         >
           <span
             className={`flex items-center justify-center w-8 h-8 border-2  rounded-full shrink-0 ${
               step >= 3
-                ? "border-purple-600 dark:border-purple-500"
-                : " dark:border-gray-400 border-gray-500"
+                ? "border-purple-600"
+                : "border-gray-500"
             }`}
           >
             3
@@ -177,15 +177,15 @@ export default function LeadForm() {
         <li
           className={`flex items-center ${
             step >= 4
-              ? "text-purple-600 dark:text-purple-500"
-              : "text-gray-500 dark:text-gray-400"
+              ? "text-purple-600"
+              : "text-gray-500"
           } space-x-2.5 rtl:space-x-reverse z-10 bg-white rounded-full border-2 border-white`}
         >
           <span
             className={`flex items-center justify-center w-8 h-8 border-2  rounded-full shrink-0 ${
               step >= 4
-                ? "border-purple-600 dark:border-purple-500"
-                : " dark:border-gray-400 border-gray-500"
+                ? "border-purple-600"
+                : "border-gray-500"
             }`}
           >
             4
