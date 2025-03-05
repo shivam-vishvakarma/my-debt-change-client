@@ -193,7 +193,7 @@ export default function Page() {
             </h2>
             <div className="h-1 w-20 bg-gradient-to-r from-indigo-600 to-purple-600 mx-auto mb-6 rounded-full" />
             <p className="text-gray-600 text-lg">
-              We're a dynamic group of individuals who are passionate about what
+              We&apos;re a dynamic group of individuals who are passionate about what
               we do and dedicated to delivering the best results for our
               clients.
             </p>
@@ -489,7 +489,7 @@ export default function Page() {
               <p className="font-bold uppercase">John Doe</p>
               <p className="text-xl font-light italic text-gray-700">
                 I found the advice and support I received from Debt Free Life to
-                be invaluable. I'm now on the road to financial freedom!
+                be invaluable. I&apos;m now on the road to financial freedom!
               </p>
               <div className="flex items-center justify-center space-x-2 mt-4">
                 <svg
@@ -525,7 +525,7 @@ export default function Page() {
               <p className="font-bold uppercase">Jane Smith</p>
               <p className="text-xl font-light italic text-gray-700">
                 This company has been a lifesaver! I was drowning in debt and
-                didn't know where to turn. Debt Free Life helped me get back on
+                didn&apos;t know where to turn. Debt Free Life helped me get back on
                 my feet.
               </p>
               <div className="flex items-center justify-center space-x-2 mt-4">

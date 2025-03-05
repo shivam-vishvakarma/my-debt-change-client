@@ -11,7 +11,7 @@ export default function DebtProblemsPage() {
               Understanding Debt Problems
             </h1>
             <p className="text-lg text-gray-600 mb-5">
-              Debt problems can feel overwhelming and isolating, but you're not
+              Debt problems can feel overwhelming and isolating, but you&apos;re not
               alone. Financial challenges can arise from various life
               circumstances, and recognizing the signs early is the first step
               towards regaining financial control.
@@ -237,9 +237,9 @@ export default function DebtProblemsPage() {
 
       <section className="bg-purple-600 text-white py-12 rounded-lg">
         <div className="container mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">You're Not Alone</h2>
+          <h2 className="text-4xl font-bold mb-6">You&apos;re Not Alone</h2>
           <p className="text-xl mb-8">
-            Financial challenges happen to many people. There's always a path
+            Financial challenges happen to many people. There&apos;s always a path
             forward.
           </p>
           <Link

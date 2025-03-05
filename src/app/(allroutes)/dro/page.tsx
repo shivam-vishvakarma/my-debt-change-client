@@ -312,7 +312,7 @@ export default function DroPage() {
               5. Debt Discharge
             </h3>
             <p className="text-lg">
-              After 12 months, if your circumstances haven't changed, qualifying
+              After 12 months, if your circumstances haven&apos;t changed, qualifying
               debts are written off.
             </p>
           </div>

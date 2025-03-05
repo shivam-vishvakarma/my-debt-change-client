@@ -120,8 +120,8 @@ export default function Home() {
                   <p className="text-sm">
                     ur U.S.-based customer support team is available around the
                     clock to answer any questions, resolve any issues, and
-                    provide helpful solutions. Whether it's through email,
-                    phone, or live chat, we're always here to support you.
+                    provide helpful solutions. Whether it&apos;s through email,
+                    phone, or live chat, we&apos;re always here to support you.
                   </p>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export default function Home() {
                   </h3>
                   <p className="text-sm">
                     We use cutting-edge security measures to protect our
-                    customers' sensitive information and ensure the safety of
+                    customers&apos; sensitive information and ensure the safety of
                     all transactions made on our site.
                   </p>
                 </div>
@@ -145,7 +145,7 @@ export default function Home() {
       <section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
         <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-            We invest in the world's potential
+            We invest in the world&apos;s potential
           </h1>
           <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
             Here at My Debt Change, we believe in the power of the individual to
