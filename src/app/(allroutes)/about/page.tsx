@@ -309,9 +309,9 @@ export default function Page() {
           </div>
         </div>
         <div className="p-10 text-center">
-          <p className="flex items-center justify-center space-x-2">
-            <span className="text-2xl">Average Customer Rating: </span>
-            <svg
+          <p className="flex items-center justify-center space-x-2 flex-col sm:flex-row">
+            <span className="text-xl sm:text-2xl">Average Customer Rating: </span>
+            <span className="flex"><svg
               role="img"
               width={30}
               height={30}
@@ -496,7 +496,7 @@ export default function Page() {
                 />
               </g>
             </svg>
-             <span className="text-2xl font-semibold">4.5</span>/5
+             <span className="text-2xl font-semibold">4.5</span>/5</span>
           </p>
           <p className="text-sm mt-2 text-gray-500">service rating based on verified reviews</p>
         </div>
