@@ -6,7 +6,6 @@ export const metadata: Metadata = {
   keywords: "terms, conditions, debt, advice, help, website, privacy, policy",
 };
 
-
 export default function TermsConditionsPage() {
   return (
     <main className="max-w-screen-xl mx-auto p-4 space-y-5">
@@ -54,9 +53,9 @@ export default function TermsConditionsPage() {
         Data Protection
       </h2>
       <p>
-        My Debt Plan Ltd does not collect any personal data through its Website
-        without users’ consent. Users alone decide whether to provide My Debt
-        Plan Ltd with such data or not.
+        My Debt Change Limited does not collect any personal data through its
+        Website without users’ consent. Users alone decide whether to provide My
+        Debt Change Limited with such data or not.
       </p>
       <p>
         When users visit the Website, information may be saved on users’
