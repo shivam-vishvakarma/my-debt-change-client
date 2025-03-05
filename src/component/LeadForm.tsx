@@ -20,7 +20,7 @@ export default function LeadForm() {
   });
 
   const [step, setStep] = useState(1);
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   const [loading, setLoading] = useState(false);
   const closeModal = () => setShowModal(false);
 
