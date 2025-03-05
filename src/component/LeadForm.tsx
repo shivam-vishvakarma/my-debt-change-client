@@ -2,6 +2,7 @@
 
 import {ChangeEvent, FormEvent, useState } from "react";
 import ThanksModal from "./ThanksModal";
+import Image from "next/image";
 
 const APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyUHcOtIe4VpbBsEc1lPpw5JVqtecoSQgTZG8J85L0Ku3HPYVpbR4kyOWPVKJiisCd-tg/exec"
 
@@ -18,20 +19,23 @@ export default function LeadForm() {
 
   const [step, setStep] = useState(1);
   const [showModal, setShowModal] = useState(false)
+  const [loading, setLoading] = useState(false)
   const closeModal = ()=>setShowModal(false)
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>)=>{
+    setLoading(true)
     setFormData((prev)=>{
       return{
         ...prev,
         [e.target.name]: e.target.value
       }
     })
+    setLoading(false)
   }
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
+    setLoading(true)
     const newFormData = new FormData();
     newFormData.append("name", formData.name)
     newFormData.append("email", formData.email)
@@ -50,10 +54,10 @@ export default function LeadForm() {
           body: newFormData,
         }
       );
-      console.log({response});
       
       // Check response (Google Apps Script returns 200 with no-cors)
       if (response) {
+        setLoading(false)
         setShowModal(true)
         // Reset form after successful submission
         setFormData({
@@ -67,15 +71,17 @@ export default function LeadForm() {
         });
       } else {
         alert("Submission failed");
+        setLoading(false)
       }
     } catch (error) {
       console.error("Error:", error);
       alert("An error occurred");
+      setLoading(false)
     }
   };
 
   return (
-    <section className="min-h-[50vh] bg-gray-100 w-full flex items-center justify-center flex-col gap-8 p-8">
+    <section className="relative min-h-[50vh] bg-gray-100 w-full flex items-center justify-center flex-col gap-8 p-8">
       <h2 className="text-5xl text-purple-700 font-semibold">
         Debt Solution Finder
       </h2>
@@ -285,7 +291,9 @@ export default function LeadForm() {
           </p>
           <div className="w-full max-w-xl space-y-8">
             <div className="bg-white shadow-md rounded-md p-6">
-              <img
+              <Image
+              height={48}
+              width={48}
                 className="mx-auto h-12 w-auto"
                 src="https://www.svgrepo.com/show/499664/user-happy.svg"
                 alt=""
@@ -380,6 +388,20 @@ export default function LeadForm() {
             </div>
           </div>
         </>
+      )}
+      {loading && (
+        <div className="absolute bg-white/50 z-10 h-full w-full flex items-center justify-center">
+        <div className="flex items-center">
+          <span className="text-3xl mr-4">Loading</span>
+          <svg className="animate-spin h-8 w-8 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24">
+            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+            <path className="opacity-75" fill="currentColor"
+              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+            </path>
+          </svg>
+        </div>
+      </div>
       )}
       <ThanksModal showModal={showModal} onClose={closeModal} />
     </section>

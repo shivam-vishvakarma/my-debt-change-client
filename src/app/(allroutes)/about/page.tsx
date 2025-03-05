@@ -209,7 +209,9 @@ export default function Page() {
             {/* Team Member 1 */}
             <div className="group">
               <div className="relative overflow-hidden rounded-xl mb-4">
-                <img
+                <Image
+                  width={500}
+                  height={750}
                   src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
                   alt="Team member"
                   className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
@@ -240,7 +242,9 @@ export default function Page() {
             {/* Team Member 2 */}
             <div className="group">
               <div className="relative overflow-hidden rounded-xl mb-4">
-                <img
+              <Image
+                  width={500}
+                  height={750}
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
                   alt="Team member"
                   className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
@@ -275,7 +279,9 @@ export default function Page() {
             {/* Team Member 3 */}
             <div className="group">
               <div className="relative overflow-hidden rounded-xl mb-4">
-                <img
+              <Image
+                  width={500}
+                  height={750}
                   src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
                   alt="Team member"
                   className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
@@ -308,7 +314,9 @@ export default function Page() {
             {/* Team Member 4 */}
             <div className="group">
               <div className="relative overflow-hidden rounded-xl mb-4">
-                <img
+              <Image
+                  width={500}
+                  height={750}
                   src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
                   alt="Team member"
                   className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
@@ -346,7 +354,9 @@ export default function Page() {
             {/* Team Member 5 */}
             <div className="group">
               <div className="relative overflow-hidden rounded-xl mb-4">
-                <img
+              <Image
+                  width={500}
+                  height={750}
                   src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
                   alt="Team member"
                   className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
@@ -379,7 +389,9 @@ export default function Page() {
             {/* Team Member 6 */}
             <div className="group">
               <div className="relative overflow-hidden rounded-xl mb-4">
-                <img
+              <Image
+                  width={500}
+                  height={750}
                   src="https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
                   alt="Team member"
                   className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
@@ -410,7 +422,9 @@ export default function Page() {
             {/* Team Member 7 */}
             <div className="group">
               <div className="relative overflow-hidden rounded-xl mb-4">
-                <img
+              <Image
+                  width={500}
+                  height={750}
                   src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
                   alt="Team member"
                   className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
@@ -443,7 +457,9 @@ export default function Page() {
             {/* Team Member 8 */}
             <div className="group">
               <div className="relative overflow-hidden rounded-xl mb-4">
-                <img
+              <Image
+                  width={500}
+                  height={750}
                   src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
                   alt="Team member"
                   className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
