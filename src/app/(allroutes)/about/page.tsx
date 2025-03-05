@@ -190,316 +190,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="py-20 px-4">
-        <div className="container mx-auto max-w-7xl">
-          {/* Section Header */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              Meet Our Talented Team
-            </h2>
-            <div className="h-1 w-20 bg-gradient-to-r from-indigo-600 to-purple-600 mx-auto mb-6 rounded-full" />
-            <p className="text-gray-600 text-lg">
-              We&apos;re a dynamic group of individuals who are passionate about what
-              we do and dedicated to delivering the best results for our
-              clients.
-            </p>
-          </div>
-          {/* Team Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Team Member 1 */}
-            <div className="group">
-              <div className="relative overflow-hidden rounded-xl mb-4">
-                <Image
-                  width={500}
-                  height={750}
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-                  alt="Team member"
-                  className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
-                  <div className="flex space-x-4">
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fas fa-envelope" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="text-center">
-                <h3 className="text-xl font-bold text-gray-800">Alex Morgan</h3>
-                <p className="text-indigo-600 font-medium">CEO &amp; Founder</p>
-                <p className="text-gray-600 mt-2">
-                  Visionary leader with 15+ years of experience in tech
-                  innovation.
-                </p>
-              </div>
-            </div>
-            {/* Team Member 2 */}
-            <div className="group">
-              <div className="relative overflow-hidden rounded-xl mb-4">
-              <Image
-                  width={500}
-                  height={750}
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-                  alt="Team member"
-                  className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
-                  <div className="flex space-x-4">
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fas fa-envelope" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="text-center">
-                <h3 className="text-xl font-bold text-gray-800">
-                  Sarah Johnson
-                </h3>
-                <p className="text-indigo-600 font-medium">
-                  Chief Design Officer
-                </p>
-                <p className="text-gray-600 mt-2">
-                  Award-winning designer with a passion for creating beautiful,
-                  functional interfaces.
-                </p>
-              </div>
-            </div>
-            {/* Team Member 3 */}
-            <div className="group">
-              <div className="relative overflow-hidden rounded-xl mb-4">
-              <Image
-                  width={500}
-                  height={750}
-                  src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-                  alt="Team member"
-                  className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
-                  <div className="flex space-x-4">
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fas fa-envelope" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="text-center">
-                <h3 className="text-xl font-bold text-gray-800">
-                  Michael Chen
-                </h3>
-                <p className="text-indigo-600 font-medium">CTO</p>
-                <p className="text-gray-600 mt-2">
-                  Tech genius with expertise in AI and machine learning
-                  technologies.
-                </p>
-              </div>
-            </div>
-            {/* Team Member 4 */}
-            <div className="group">
-              <div className="relative overflow-hidden rounded-xl mb-4">
-              <Image
-                  width={500}
-                  height={750}
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-                  alt="Team member"
-                  className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
-                  <div className="flex space-x-4">
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fas fa-envelope" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="text-center">
-                <h3 className="text-xl font-bold text-gray-800">
-                  Emily Rodriguez
-                </h3>
-                <p className="text-indigo-600 font-medium">
-                  Marketing Director
-                </p>
-                <p className="text-gray-600 mt-2">
-                  Creative strategist who excels at building and promoting
-                  brands.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* Second Row */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
-            {/* Team Member 5 */}
-            <div className="group">
-              <div className="relative overflow-hidden rounded-xl mb-4">
-              <Image
-                  width={500}
-                  height={750}
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-                  alt="Team member"
-                  className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
-                  <div className="flex space-x-4">
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fas fa-envelope" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="text-center">
-                <h3 className="text-xl font-bold text-gray-800">
-                  David Wilson
-                </h3>
-                <p className="text-indigo-600 font-medium">Lead Developer</p>
-                <p className="text-gray-600 mt-2">
-                  Full-stack developer with a knack for solving complex
-                  problems.
-                </p>
-              </div>
-            </div>
-            {/* Team Member 6 */}
-            <div className="group">
-              <div className="relative overflow-hidden rounded-xl mb-4">
-              <Image
-                  width={500}
-                  height={750}
-                  src="https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-                  alt="Team member"
-                  className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
-                  <div className="flex space-x-4">
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fas fa-envelope" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="text-center">
-                <h3 className="text-xl font-bold text-gray-800">Sophia Lee</h3>
-                <p className="text-indigo-600 font-medium">UX Researcher</p>
-                <p className="text-gray-600 mt-2">
-                  Human-centered designer focused on creating intuitive user
-                  experiences.
-                </p>
-              </div>
-            </div>
-            {/* Team Member 7 */}
-            <div className="group">
-              <div className="relative overflow-hidden rounded-xl mb-4">
-              <Image
-                  width={500}
-                  height={750}
-                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-                  alt="Team member"
-                  className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
-                  <div className="flex space-x-4">
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fas fa-envelope" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="text-center">
-                <h3 className="text-xl font-bold text-gray-800">
-                  James Taylor
-                </h3>
-                <p className="text-indigo-600 font-medium">Product Manager</p>
-                <p className="text-gray-600 mt-2">
-                  Strategic thinker who bridges the gap between business and
-                  technology.
-                </p>
-              </div>
-            </div>
-            {/* Team Member 8 */}
-            <div className="group">
-              <div className="relative overflow-hidden rounded-xl mb-4">
-              <Image
-                  width={500}
-                  height={750}
-                  src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-                  alt="Team member"
-                  className="w-full aspect-[3/4] object-cover object-center transform group-hover:scale-105 transition duration-300 ease-in-out"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
-                  <div className="flex space-x-4">
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a className="bg-white text-indigo-600 p-2 rounded-full hover:bg-indigo-600 hover:text-white transition-colors duration-200">
-                      <i className="fas fa-envelope" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="text-center">
-                <h3 className="text-xl font-bold text-gray-800">
-                  Olivia Martinez
-                </h3>
-                <p className="text-indigo-600 font-medium">Customer Success</p>
-                <p className="text-gray-600 mt-2">
-                  Dedicated to ensuring our clients achieve their goals and
-                  succeed.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* Join Our Team CTA */}
-          <div className="mt-20 text-center">
-            <div className="inline-block bg-gradient-to-r from-indigo-600 to-purple-600 p-px rounded-lg">
-              <a className="block bg-white hover:bg-gray-50 transition-colors duration-200 rounded-lg px-8 py-4 font-medium text-indigo-600">
-                Join Our Team <span className="ml-2">→</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
       <LeadForm />
       <section className="bg-white px-4 py-12 md:py-24">
         <div className="max-w-screen-xl mx-auto">
@@ -547,8 +237,8 @@ export default function Page() {
               <p className="font-bold uppercase">Jane Smith</p>
               <p className="text-xl font-light italic text-gray-700">
                 This company has been a lifesaver! I was drowning in debt and
-                didn&apos;t know where to turn. Debt Free Life helped me get back on
-                my feet.
+                didn&apos;t know where to turn. Debt Free Life helped me get
+                back on my feet.
               </p>
               <div className="flex items-center justify-center space-x-2 mt-4">
                 <svg
@@ -617,6 +307,198 @@ export default function Page() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="p-10 text-center">
+          <p className="flex items-center justify-center space-x-2">
+            <span className="text-2xl">Average Customer Rating: </span>
+            <svg
+              role="img"
+              width={30}
+              height={30}
+              viewBox="2 2 13 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Filled star</title>
+              <defs>
+                <clipPath id="clip-1iljp5ha10bb3519b239ce">
+                  <rect
+                    width={8}
+                    height="7.6636257"
+                    x="3.9863169"
+                    y="4.3568988"
+                  />
+                </clipPath>
+              </defs>
+              <g id="decimal-star">
+                <path
+                  id="border-star"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M 13.3854,6.01933 10.1084,5.52017 8.64374,2.41743 c -0.26243,-0.55305 -1.0228,-0.56008 -1.28748,0 L 5.89159,5.52017 2.61459,6.01933 C 2.02693,6.10838 1.79141,6.86532 2.21758,7.29886 L 4.58842,9.71263 4.02767,13.1224 c -0.10093,0.6163 0.52037,1.078 1.04075,0.7897 L 8,12.3021 l 2.9316,1.61 c 0.5204,0.2859 1.1417,-0.1734 1.0407,-0.7897 L 11.4116,9.71263 13.7824,7.29886 C 14.2086,6.86532 13.9731,6.10838 13.3854,6.01933 Z M 10.238,11.8199 9.80791,9.20473 11.6987,7.27971 9.09291,6.88279 8,4.56758 6.90709,6.88279 4.30131,7.27971 6.19209,9.20473 5.76202,11.8199 8,10.5908 Z"
+                  style={{ fill: "rgb(255, 208, 0)", fillOpacity: 1 }}
+                />
+                <path
+                  id="inner"
+                  d="M 10.365089,11.940869 9.9112316,9.2401755 11.906508,7.2522018 9.1567203,6.8423012 8.0034155,4.4513771 6.8501108,6.8423012 4.100334,7.2522018 6.0955995,9.2401755 5.6417636,11.940869 8.0034155,10.671574 Z"
+                  style={{
+                    fill: "rgb(255, 208, 0)",
+                    clipPath: 'url("#clip-1iljp5ha10bb3519b239ce")',
+                  }}
+                />
+              </g>
+            </svg>
+            <svg
+              role="img"
+              width={30}
+              height={30}
+              viewBox="2 2 13 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Filled star</title>
+              <defs>
+                <clipPath id="clip-1iljp5ha10bb3519b239ce">
+                  <rect
+                    width={8}
+                    height="7.6636257"
+                    x="3.9863169"
+                    y="4.3568988"
+                  />
+                </clipPath>
+              </defs>
+              <g id="decimal-star">
+                <path
+                  id="border-star"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M 13.3854,6.01933 10.1084,5.52017 8.64374,2.41743 c -0.26243,-0.55305 -1.0228,-0.56008 -1.28748,0 L 5.89159,5.52017 2.61459,6.01933 C 2.02693,6.10838 1.79141,6.86532 2.21758,7.29886 L 4.58842,9.71263 4.02767,13.1224 c -0.10093,0.6163 0.52037,1.078 1.04075,0.7897 L 8,12.3021 l 2.9316,1.61 c 0.5204,0.2859 1.1417,-0.1734 1.0407,-0.7897 L 11.4116,9.71263 13.7824,7.29886 C 14.2086,6.86532 13.9731,6.10838 13.3854,6.01933 Z M 10.238,11.8199 9.80791,9.20473 11.6987,7.27971 9.09291,6.88279 8,4.56758 6.90709,6.88279 4.30131,7.27971 6.19209,9.20473 5.76202,11.8199 8,10.5908 Z"
+                  style={{ fill: "rgb(255, 208, 0)", fillOpacity: 1 }}
+                />
+                <path
+                  id="inner"
+                  d="M 10.365089,11.940869 9.9112316,9.2401755 11.906508,7.2522018 9.1567203,6.8423012 8.0034155,4.4513771 6.8501108,6.8423012 4.100334,7.2522018 6.0955995,9.2401755 5.6417636,11.940869 8.0034155,10.671574 Z"
+                  style={{
+                    fill: "rgb(255, 208, 0)",
+                    clipPath: 'url("#clip-1iljp5ha10bb3519b239ce")',
+                  }}
+                />
+              </g>
+            </svg>
+            <svg
+              role="img"
+              width={30}
+              height={30}
+              viewBox="2 2 13 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Filled star</title>
+              <defs>
+                <clipPath id="clip-1iljp5ha10bb3519b239ce">
+                  <rect
+                    width={8}
+                    height="7.6636257"
+                    x="3.9863169"
+                    y="4.3568988"
+                  />
+                </clipPath>
+              </defs>
+              <g id="decimal-star">
+                <path
+                  id="border-star"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M 13.3854,6.01933 10.1084,5.52017 8.64374,2.41743 c -0.26243,-0.55305 -1.0228,-0.56008 -1.28748,0 L 5.89159,5.52017 2.61459,6.01933 C 2.02693,6.10838 1.79141,6.86532 2.21758,7.29886 L 4.58842,9.71263 4.02767,13.1224 c -0.10093,0.6163 0.52037,1.078 1.04075,0.7897 L 8,12.3021 l 2.9316,1.61 c 0.5204,0.2859 1.1417,-0.1734 1.0407,-0.7897 L 11.4116,9.71263 13.7824,7.29886 C 14.2086,6.86532 13.9731,6.10838 13.3854,6.01933 Z M 10.238,11.8199 9.80791,9.20473 11.6987,7.27971 9.09291,6.88279 8,4.56758 6.90709,6.88279 4.30131,7.27971 6.19209,9.20473 5.76202,11.8199 8,10.5908 Z"
+                  style={{ fill: "rgb(255, 208, 0)", fillOpacity: 1 }}
+                />
+                <path
+                  id="inner"
+                  d="M 10.365089,11.940869 9.9112316,9.2401755 11.906508,7.2522018 9.1567203,6.8423012 8.0034155,4.4513771 6.8501108,6.8423012 4.100334,7.2522018 6.0955995,9.2401755 5.6417636,11.940869 8.0034155,10.671574 Z"
+                  style={{
+                    fill: "rgb(255, 208, 0)",
+                    clipPath: 'url("#clip-1iljp5ha10bb3519b239ce")',
+                  }}
+                />
+              </g>
+            </svg>
+            <svg
+              role="img"
+              width={30}
+              height={30}
+              viewBox="2 2 13 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Filled star</title>
+              <defs>
+                <clipPath id="clip-1iljp5ha10bb3519b239ce">
+                  <rect
+                    width={8}
+                    height="7.6636257"
+                    x="3.9863169"
+                    y="4.3568988"
+                  />
+                </clipPath>
+              </defs>
+              <g id="decimal-star">
+                <path
+                  id="border-star"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M 13.3854,6.01933 10.1084,5.52017 8.64374,2.41743 c -0.26243,-0.55305 -1.0228,-0.56008 -1.28748,0 L 5.89159,5.52017 2.61459,6.01933 C 2.02693,6.10838 1.79141,6.86532 2.21758,7.29886 L 4.58842,9.71263 4.02767,13.1224 c -0.10093,0.6163 0.52037,1.078 1.04075,0.7897 L 8,12.3021 l 2.9316,1.61 c 0.5204,0.2859 1.1417,-0.1734 1.0407,-0.7897 L 11.4116,9.71263 13.7824,7.29886 C 14.2086,6.86532 13.9731,6.10838 13.3854,6.01933 Z M 10.238,11.8199 9.80791,9.20473 11.6987,7.27971 9.09291,6.88279 8,4.56758 6.90709,6.88279 4.30131,7.27971 6.19209,9.20473 5.76202,11.8199 8,10.5908 Z"
+                  style={{ fill: "rgb(255, 208, 0)", fillOpacity: 1 }}
+                />
+                <path
+                  id="inner"
+                  d="M 10.365089,11.940869 9.9112316,9.2401755 11.906508,7.2522018 9.1567203,6.8423012 8.0034155,4.4513771 6.8501108,6.8423012 4.100334,7.2522018 6.0955995,9.2401755 5.6417636,11.940869 8.0034155,10.671574 Z"
+                  style={{
+                    fill: "rgb(255, 208, 0)",
+                    clipPath: 'url("#clip-1iljp5ha10bb3519b239ce")',
+                  }}
+                />
+              </g>
+            </svg>
+            <svg
+              role="img"
+              width={30}
+              height={30}
+              viewBox="2 2 13 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Partial star</title>
+              <defs>
+                <clipPath id="clip-1iljp12jh044e3e354ac896">
+                  <rect
+                    width="5.8"
+                    height="7.6636257"
+                    x="3.9863169"
+                    y="4.3568988"
+                  />
+                </clipPath>
+              </defs>
+              <g id="decimal-star">
+                <path
+                  id="border-star"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M 13.3854,6.01933 10.1084,5.52017 8.64374,2.41743 c -0.26243,-0.55305 -1.0228,-0.56008 -1.28748,0 L 5.89159,5.52017 2.61459,6.01933 C 2.02693,6.10838 1.79141,6.86532 2.21758,7.29886 L 4.58842,9.71263 4.02767,13.1224 c -0.10093,0.6163 0.52037,1.078 1.04075,0.7897 L 8,12.3021 l 2.9316,1.61 c 0.5204,0.2859 1.1417,-0.1734 1.0407,-0.7897 L 11.4116,9.71263 13.7824,7.29886 C 14.2086,6.86532 13.9731,6.10838 13.3854,6.01933 Z M 10.238,11.8199 9.80791,9.20473 11.6987,7.27971 9.09291,6.88279 8,4.56758 6.90709,6.88279 4.30131,7.27971 6.19209,9.20473 5.76202,11.8199 8,10.5908 Z"
+                  style={{ fill: "rgb(255, 208, 0)", fillOpacity: 1 }}
+                />
+                <path
+                  id="inner"
+                  d="M 10.365089,11.940869 9.9112316,9.2401755 11.906508,7.2522018 9.1567203,6.8423012 8.0034155,4.4513771 6.8501108,6.8423012 4.100334,7.2522018 6.0955995,9.2401755 5.6417636,11.940869 8.0034155,10.671574 Z"
+                  style={{
+                    fill: "rgb(255, 208, 0)",
+                    clipPath: 'url("#clip-1iljp12jh044e3e354ac896")',
+                  }}
+                />
+              </g>
+            </svg>
+             <span className="text-2xl font-semibold">4.5</span>/5
+          </p>
+          <p className="text-sm mt-2 text-gray-500">service rating based on verified reviews</p>
         </div>
       </section>
     </main>
