@@ -1,3 +1,12 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy - My Debt Change",
+  description: "Privacy Policy for My Debt Change",
+  keywords: "Privacy Policy, Debt Advice, Debt Help, Debt Solutions",
+};
+
+
 export default function PrivacyPolicyPage() {
   return (
     <main className="max-w-screen-xl mx-auto p-4 space-y-5">

@@ -1,6 +1,12 @@
 import LeadForm from "@/component/LeadForm";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Debt Management - My Debt Change",
+  description: "A simple debt repayment guide for beginners.",
+};
 
 export default function DebtManagementPage() {
   return (

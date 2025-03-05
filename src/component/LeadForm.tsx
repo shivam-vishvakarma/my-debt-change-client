@@ -1,6 +1,9 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import {ChangeEvent, FormEvent, useState } from "react";
+import ThanksModal from "./ThanksModal";
+
+const APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyUHcOtIe4VpbBsEc1lPpw5JVqtecoSQgTZG8J85L0Ku3HPYVpbR4kyOWPVKJiisCd-tg/exec"
 
 export default function LeadForm() {
   const [formData, setFormData] = useState({
@@ -14,27 +17,44 @@ export default function LeadForm() {
   });
 
   const [step, setStep] = useState(1);
+  const [showModal, setShowModal] = useState(false)
+  const closeModal = ()=>setShowModal(false)
+
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>)=>{
+    setFormData((prev)=>{
+      return{
+        ...prev,
+        [e.target.name]: e.target.value
+      }
+    })
+  }
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    const newFormData = new FormData();
+    newFormData.append("name", formData.name)
+    newFormData.append("email", formData.email)
+    newFormData.append("phone", formData.phone)
+    newFormData.append("message", formData.message)
+    newFormData.append("debtValue", formData.debtValue)
+    newFormData.append("debtCount", formData.debtCount)
+    newFormData.append("employmentStatus", formData.employmentStatus)
+
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbz1OHWu4lgFh9NtoB2hG_ZWgjU2wIzyMS42BA-4v1m-fW3kcukiVyPkYY66lF7nbS2Nuw/exec",
+        APP_SCRIPT_URL,
         {
           method: "POST",
           mode: "no-cors",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
+          body: newFormData,
         }
       );
-
-      console.log("Response:", response);
+      console.log({response});
+      
       // Check response (Google Apps Script returns 200 with no-cors)
-      if (response.ok) {
-        alert("Form submitted successfully!");
+      if (response) {
+        setShowModal(true)
         // Reset form after successful submission
         setFormData({
           name: "",
@@ -285,6 +305,8 @@ export default function LeadForm() {
                     <input
                       name="name"
                       type="name"
+                      value={formData.name}
+                      onChange={handleChange}
                       required
                       className="px-2 py-3 mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:border-purple-700 focus:outline-none focus:ring-purple-700 sm:text-sm"
                     />
@@ -301,6 +323,8 @@ export default function LeadForm() {
                     <input
                       name="email"
                       type="email-address"
+                      value={formData.email}
+                      onChange={handleChange}
                       autoComplete="email-address"
                       required
                       className="px-2 py-3 mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:border-purple-700 focus:outline-none focus:ring-purple-700 sm:text-sm"
@@ -318,6 +342,8 @@ export default function LeadForm() {
                     <input
                       name="phone"
                       type="tel"
+                      value={formData.phone}
+                      onChange={handleChange}
                       autoComplete="tel"
                       required
                       className="px-2 py-3 mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:border-purple-700 focus:outline-none focus:ring-purple-700 sm:text-sm"
@@ -335,6 +361,8 @@ export default function LeadForm() {
                     <textarea
                       name="message"
                       rows={4}
+                      value={formData.message}
+                      onChange={handleChange}
                       required
                       className="px-2 py-3 mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:border-purple-700 focus:outline-none focus:ring-purple-700 sm:text-sm"
                     />
@@ -353,6 +381,7 @@ export default function LeadForm() {
           </div>
         </>
       )}
+      <ThanksModal showModal={showModal} onClose={closeModal} />
     </section>
   );
 }
