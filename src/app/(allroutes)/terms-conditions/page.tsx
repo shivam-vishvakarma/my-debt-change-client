@@ -1,3 +1,12 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms & Conditions - My Debt Change",
+  description: "Terms and conditions of use for the My Debt Change website.",
+  keywords: "terms, conditions, debt, advice, help, website, privacy, policy",
+};
+
+
 export default function TermsConditionsPage() {
   return (
     <main className="max-w-screen-xl mx-auto p-4 space-y-5">

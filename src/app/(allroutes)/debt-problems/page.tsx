@@ -1,5 +1,12 @@
 import LeadForm from "@/component/LeadForm";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Debt Problem - My Debt Change",
+  description: "Learn about debt management plans and how they can help you take control of your finances.",
+  keywords: "debt management, debt management plan, debt help, debt relief, debt consolidation",
+};
 
 export default function DebtProblemsPage() {
   return (

@@ -1,6 +1,15 @@
 import LeadForm from "@/component/LeadForm";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+
+export const metadata: Metadata = {
+  title: "IVA - My Debt Change",
+  description: "Learn about Individual Voluntary Arrangements (IVAs) and how they can help you manage debt. Find out the pros and cons of an IVA and the step-by-step process.",
+  keywords: "IVA, Individual Voluntary Arrangement, debt management, debt solution, bankruptcy alternative",
+};
+
 
 export default function IvaPage() {
   return (

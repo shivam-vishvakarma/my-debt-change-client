@@ -1,6 +1,15 @@
 import LeadForm from "@/component/LeadForm";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+
+export const metadata: Metadata = {
+  title: "DRO - My Debt Change",
+  description: "Learn about Debt Relief Orders (DROs) and how they can help you manage your debts. Find out the pros and cons of a DRO and the step-by-step process.",
+  keywords: "debt relief order, dro, debt solution, debt management, debt relief, debt advice",
+};
+
 
 export default function DroPage() {
   return (
