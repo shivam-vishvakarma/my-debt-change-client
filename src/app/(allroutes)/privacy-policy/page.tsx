@@ -46,37 +46,19 @@ export default function PrivacyPolicyPage() {
         Electronic Communications (EU Exit) Regulations 2019 (referred to
         collectively here as the “Data Protection Regulations”); and
       </p>
-      <h3 className="text-3xl font-semibold text-purple-700">
-        “We / Us / Our”
-      </h3>
-      <p>
-        means My Debt Change Limited, a limited company registered in England
-        under company number 06098871, whose registered address is Hampton By
-        Hilton, Suite 615, 6th Floor, 42-50 Kimpton Road, Luton, Bedfordshire,
-        LU2 0FP, and whose main trading address is the same as its registered
-        address.
-      </p>
       <h2 className="text-3xl font-semibold text-purple-700">
         2. Information About Us
       </h2>
       <p>
-        2.1 Our Site is owned and operated by My Debt Change Limited a limited
-        company registered in England under company number 06098871, whose
-        registered and trading address is Hampton By Hilton, Suite 615, 6th
-        Floor, 42-50 Kimpton Road, Luton, Bedfordshire, LU2 0FP. Start Debt Help
-        is a trading name of ours.
+        2.1 We are authorised and regulated by the Financial Conduct Authority
+        for Debt Counselling Services.
       </p>
       <p>
-        2.2 We are authorised and regulated by the Financial Conduct Authority
-        for Debt Counselling Services. Our firm reference number is: 669786. You
-        can check these details on the register: https://register.fca.org.uk/.
+        2.2 We have notified the Information Commissioner of our data processing
+        activities.
       </p>
       <p>
-        2.3 We have notified the Information Commissioner of our data processing
-        activities. Our registration number is: ZA189068
-      </p>
-      <p>
-        2.4 This Site is operating as a Lead Generation site, which means that
+        2.3 This Site is operating as a Lead Generation site, which means that
         any enquiry that you make through our online form will be shared with
         third parties. See section 6 for more details.
       </p>
