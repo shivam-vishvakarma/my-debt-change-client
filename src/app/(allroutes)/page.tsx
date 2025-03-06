@@ -44,14 +44,14 @@ export default function Home() {
             {/* End of Button Section */}
           </div>
           {/*   Image Section     */}
-          <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4">
-            <Image
+          <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 bg-gradient-to-r from-purple-700 to-purple-500 rounded-lg p-4 animate-pulse">
+            {/* <Image
               className="rounded-lg"
               width={500}
               height={500}
               src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
               alt=""
-            />
+            /> */}
           </div>
           {/*   End of Image Section     */}
         </div>
@@ -78,7 +78,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col md:flex-row">
             {/* can help image */}
-            <div className="mr-0 md:mr-8 mb-6 md:mb-0">
+            {/* <div className="mr-0 md:mr-8 mb-6 md:mb-0">
               <Image
                 className="w-1/2 md:w-full mx-auto"
                 width={400}
@@ -86,7 +86,7 @@ export default function Home() {
                 src="/calling women.jpg"
                 alt="Can Help"
               />
-            </div>
+            </div> */}
             {/* end can help image */}
             <div className="flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2">
               <div className="w-full sm:w-1/2 mb-4 px-2 ">
@@ -144,7 +144,7 @@ export default function Home() {
         </div>
       </section>
       <LeadForm />
-      <section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-overlay">
+      <section className="bg-center bg-no-repeat bg-gray-700 bg-blend-overlay">
         <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
             We invest in the world&apos;s potential
